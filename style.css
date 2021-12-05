@@ -1,4 +1,55 @@
-body {background-color:tan;}
-h1{color:green;}
+/* OVERALL BODY AND BACKGROUND */
+body {
+    background-color:black; 
+    font-family:arial; 
+    color:white;
+}
 
+/* HEADING STYLE */
+h1 {
+    color:grey;
+    font-family:verdana;
+}
 
+/* STYLE FOT THE BODY OF THE CALCULATOR */
+.maindiv {
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:50px;
+    border-radius:25px;
+    margin:15% auto;
+}
+
+/* FOR ALIGNING THE BUTTON VERTICALLY TO THE BODY */
+.center {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* STYLING FOR BUTTON */
+button {
+    border: none;
+    background-color: rgb(35, 105, 126);
+    color: white;
+    font-family:verdana;
+    padding: 15px 32px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* TEXT HIGHLIGHTS FOR THE RESULTS */
+mark {
+    background-color: white;
+    color:red;
+}
+
+/* CENTERING AND CHANGING FONT COLOR OF FOOTER */
+footer {
+    text-align: center;
+    color:grey;
+}
