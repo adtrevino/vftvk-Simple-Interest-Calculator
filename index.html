@@ -16,10 +16,17 @@
 
             <!-- Rate -->
             Rate <br>
-            <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()">
+            <input type="range"  
+                    id="rate" 
+                    min="1" 
+                    max="20" 
+                    value="10.25" 
+                    step="0.25" 
+                    oninput="updateRate()"
+                    onchange="updateRate()">
                 <span id="rate_val">
-                    10.25
-                </span>%
+                    10.25%
+                </span>
             </input>
             <br/><br/>
 
@@ -48,8 +55,9 @@
             <span id="result">
             </span>
         </body>
-    </div>
-    <footer>
-        &#169; This Calculator belongs to Adrian Trevino
-    </footer> 
+        <br><br>
+        <footer>
+            &#169; This Calculator belongs to Adrian Trevino
+        </footer>
+    </div> 
 </html>
