@@ -51,5 +51,6 @@ mark {
 /* CENTERING AND CHANGING FONT COLOR OF FOOTER */
 footer {
     text-align: center;
-    color:grey;
+    font-size: 12;
+    color:rgb(172, 172, 172);
 }
