@@ -15,10 +15,10 @@ h1 {
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:20%;
     padding:50px;
     border-radius:25px;
-    margin:15% auto;
+    margin:5% auto;
 }
 
 /* FOR ALIGNING THE BUTTON VERTICALLY TO THE BODY */
